@@ -16,33 +16,9 @@
 	display_name = "beret, red"
 	path = /obj/item/clothing/head/beret
 
-/datum/gear/head/beret/bsec
-	display_name = "beret, navy (officer)"
-	path = /obj/item/clothing/head/beret/sec/navy/officer
-	allowed_roles = list("Security Officer","Head of Security","Warden")
-
-/datum/gear/head/beret/bsec_warden
-	display_name = "beret, navy (warden)"
-	path = /obj/item/clothing/head/beret/sec/navy/warden
-	allowed_roles = list("Head of Security","Warden")
-
-/datum/gear/head/beret/bsec_hos
-	display_name = "beret, navy (hos)"
-	path = /obj/item/clothing/head/beret/sec/navy/hos
-	allowed_roles = list("Head of Security")
-
-/datum/gear/head/beret/eng
-	display_name = "beret, engie-orange"
-	path = /obj/item/clothing/head/beret/engineering
-
 /datum/gear/head/beret/purp
 	display_name = "beret, purple"
 	path = /obj/item/clothing/head/beret/purple
-
-/datum/gear/head/beret/sec
-	display_name = "beret, red (security)"
-	path = /obj/item/clothing/head/beret/sec
-	allowed_roles = list("Security Officer","Head of Security","Warden")
 
 /datum/gear/head/cap
 	display_name = "cap, black"
@@ -59,11 +35,6 @@
 /datum/gear/head/cap/flat
 	display_name = "cap, brown-flat"
 	path = /obj/item/clothing/head/flatcap
-
-/datum/gear/head/cap/corp
-	display_name = "cap, corporate (Security)"
-	path = /obj/item/clothing/head/soft/sec/corp
-	allowed_roles = list("Security Officer","Head of Security","Warden", "Detective")
 
 /datum/gear/head/cap/green
 	display_name = "cap, green"
@@ -92,7 +63,7 @@
 /datum/gear/head/cap/sec
 	display_name = "cap, security (Security)"
 	path = /obj/item/clothing/head/soft/sec
-	allowed_roles = list("Security Officer","Head of Security","Warden", "Detective")
+	allowed_roles = list("Constable, Senior Constable, Security Chief, Overseer, Detective")
 
 /datum/gear/head/cap/yellow
 	display_name = "cap, yellow"

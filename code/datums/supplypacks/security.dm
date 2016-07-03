@@ -160,7 +160,6 @@
 			/obj/item/clothing/suit/storage/forensics/red,
 			/obj/item/clothing/suit/storage/forensics/blue,
 			/obj/item/clothing/under/det/corporate = 2,
-			/obj/item/clothing/accessory/badge/holo/detective = 2,
 			/obj/item/clothing/gloves/black = 2
 			)
 	cost = 10

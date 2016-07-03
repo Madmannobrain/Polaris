@@ -1,4 +1,4 @@
-// Suit slot
+f// Suit slot
 /datum/gear/suit
 	display_name = "apron, blue"
 	path = /obj/item/clothing/suit/apron
@@ -128,7 +128,7 @@
 /datum/gear/suit/roles/poncho/security
 	display_name = "poncho, security"
 	path = /obj/item/clothing/suit/poncho/roles/security
-	allowed_roles = list("Head of Security", "Warden", "Detective", "Security Officer")
+	allowed_roles = list("Constable","Senior Constable","Security Chief","Overseer","Detective")
 
 /datum/gear/suit/roles/poncho/medical
 	display_name = "poncho, medical"
@@ -208,7 +208,7 @@
 /datum/gear/suit/wintercoat/security
 	display_name = "winter coat, security"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/security
-	allowed_roles = list("Security Officer, Head of Security, Warden, Detective")
+	allowed_roles = list("Constable","Senior Constable","Security Chief","Overseer","Detective")
 
 /datum/gear/suit/wintercoat/medical
 	display_name = "winter coat, medical"

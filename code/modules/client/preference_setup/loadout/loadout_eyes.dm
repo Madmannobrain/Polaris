@@ -29,15 +29,6 @@
 	display_name = "Science Goggles"
 	path = /obj/item/clothing/glasses/science
 
-/datum/gear/eyes/security
-	display_name = "Security HUD (Security)"
-	path = /obj/item/clothing/glasses/hud/security
-	allowed_roles = list("Security Officer","Head of Security","Warden")
-
-/datum/gear/eyes/security/prescriptionsec
-	display_name = "Security HUD, prescription (Security)"
-	path = /obj/item/clothing/glasses/hud/security/prescription
-
 /datum/gear/eyes/medical
 	display_name = "Medical HUD (Medical)"
 	path = /obj/item/clothing/glasses/hud/health
@@ -50,7 +41,7 @@
 /datum/gear/eyes/shades
 	display_name = "Sunglasses, fat (Security/Command)"
 	path = /obj/item/clothing/glasses/sunglasses/big
-	allowed_roles = list("Security Officer","Head of Security","Warden","Captain","Head of Personnel","Quartermaster","Internal Affairs Agent","Detective")
+	allowed_roles = list("Constable","Senior Constable","Security Chief","Overseer","Detective","Captain","Head of Personnel","Quartermaster","Internal Affairs Agent")
 
 /datum/gear/eyes/glasses/fakesun
 	display_name = "Sunglasses, stylish"

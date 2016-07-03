@@ -291,10 +291,11 @@
 		var/obj/item/weapon/reagent_containers/glass/beaker/large/B1 = new(src)
 		var/obj/item/weapon/reagent_containers/glass/beaker/large/B2 = new(src)
 
-		B1.reagents.add_reagent("condensedcapsaicin", 60)
-		B1.reagents.add_reagent("potassium", 60)
-		B2.reagents.add_reagent("phosphorus", 60)
-		B2.reagents.add_reagent("sugar", 60)
+		B1.reagents.add_reagent("condensedcapsaicin", 70)
+		B1.reagents.add_reagent("potassium", 50)
+		B2.reagents.add_reagent("phosphorus", 50)
+		B2.reagents.add_reagent("sugar", 50)
+		B2.reagents.add_reagent("condensedcapsaicin", 20)
 
 		detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
 

@@ -619,7 +619,7 @@
 	new /obj/item/clothing/head/caphat/formal(src)
 	new /obj/item/clothing/under/captainformal(src)
 	new /obj/item/clothing/suit/storage/hooded/wintercoat/captain(src)
-	new /obj/item/clothing/head/beret/centcom/captain(src)
+	new /obj/item/clothing/head/beret/centcom/(src)
 	new /obj/item/clothing/under/gimmick/rank/captain/suit(src)
 	new /obj/item/clothing/glasses/sunglasses(src)
 	return

@@ -1,3 +1,43 @@
+///////.32 caseless///////
+
+/obj/item/ammo_magazine/a32
+	name = "speedloader (.32 caseless)"
+	desc = "A speedloader for .32 impulse revolvers."
+	icon_state = "32cless"
+	caliber = "32"
+	ammo_type = /obj/item/ammo_casing/caseless/wardenrevolver
+	matter = list(DEFAULT_WALL_MATERIAL = 1260)
+	max_ammo = 6
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a32/ap
+	name = "speedloader (.32 caseless AP)"
+	desc = "An armor-pierce speedloader for .32 impulse revolvers."
+	icon_state = "32cless"
+	caliber = "32"
+	ammo_type = /obj/item/ammo_casing/caseless/wardenrevolver/ap
+	matter = list(DEFAULT_WALL_MATERIAL = 1260)
+	max_ammo = 6
+	multiple_sprites = 1
+
+///////10x45 caseless///////
+
+/obj/item/ammo_magazine/a10x45
+	name = "ammo cartridge (10x45mm caseless)"
+	desc = "A less-lethal cartridge for 10x45 impulse guns."
+	icon_state = "traumaticmag-nlethal"
+	caliber = "10x45"
+	ammo_type = /obj/item/ammo_casing/caseless/traumatic
+	matter = list(DEFAULT_WALL_MATERIAL = 1260)
+	max_ammo = 5
+
+/obj/item/ammo_magazine/a10x45/hp
+	name = "ammo cartridge (10x45mm caseless)"
+	desc = "A hollow-point cartridge for 10x45 impulse guns."
+	icon_state = "traumaticmag-nlethal"
+	caliber = "10x45"
+	ammo_type = /obj/item/ammo_casing/caseless/traumatic/hp
+
 ///////// .357 /////////
 
 /obj/item/ammo_magazine/a357
@@ -25,6 +65,8 @@
 /obj/item/ammo_magazine/c38/rubber
 	name = "speedloader (.38 rubber)"
 	ammo_type = /obj/item/ammo_casing/c38r
+
+
 
 ///////// .45 /////////
 
