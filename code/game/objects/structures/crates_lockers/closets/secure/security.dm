@@ -107,14 +107,14 @@
 		new /obj/item/device/radio/headset/heads/hos/alt(src)
 		new /obj/item/taperoll/police(src)
 		new /obj/item/weapon/shield/riot/tele(src)
-		new /obj/item/clothing/accessory/badge/holo/hos(src)
+		new /obj/item/clothing/accessory/badge/sec/secchief(src)
 		new /obj/item/weapon/storage/box/flashbangs(src)
 		new /obj/item/weapon/storage/belt/security(src)
 		new /obj/item/device/flash(src)
 		new /obj/item/weapon/melee/baton/loaded(src)
 		new /obj/item/weapon/gun/energy/gun(src)
 		new /obj/item/clothing/accessory/holster/waist(src)
-		new /obj/item/clothing/head/beret/sec/corporate/hos(src)
+		new /obj/item/clothing/head/beret/secchief(src)
 		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
 		new /obj/item/device/flashlight/maglight(src)
 		return
@@ -147,16 +147,19 @@
 		new /obj/item/weapon/cartridge/security(src)
 		new /obj/item/device/radio/headset/headset_sec/alt(src)
 		new /obj/item/taperoll/police(src)
-		new /obj/item/clothing/accessory/badge/holo/warden(src)
+		new /obj/item/clothing/accessory/badge/sec/overseer(src)
 		new /obj/item/weapon/storage/box/flashbangs(src)
 		new /obj/item/weapon/storage/belt/security(src)
 		new /obj/item/weapon/reagent_containers/spray/pepper(src)
-		new /obj/item/weapon/melee/baton/loaded(src)
 		new /obj/item/weapon/gun/energy/gun(src)
-		new /obj/item/weapon/storage/box/holobadge(src)
 		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
 		new /obj/item/device/flashlight/maglight(src)
 		new /obj/item/device/megaphone(src)
+		new /obj/item/weapon/melee/baton/loaded(src)
+		new /obj/item/weapon/gun/projectile/revolver/warden(src)
+		new /obj/item/ammo_magazine/a32(src)
+		new /obj/item/ammo_magazine/a32(src)
+		new /obj/item/ammo_magazine/a32/ap(src)
 		return
 
 
@@ -191,7 +194,11 @@
 		new /obj/item/clothing/accessory/storage/black_vest(src)
 		new /obj/item/clothing/under/rank/seniorconstable(src)
 		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
+		new /obj/item/clothing/head/beret/seniorconstable(src)
 		new /obj/item/device/flashlight/maglight(src)
+		new /obj/item/clothing/accessory/badge/sec/seniorconstable(src)
+		new /obj/item/weapon/melee/telebaton(src)
+		new /obj/item/weapon/melee/baton/shocker/loaded(src)
 		return
 
 
@@ -227,6 +234,9 @@
 		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
 		new /obj/item/clothing/under/rank/constable(src)
 		new /obj/item/device/flashlight/maglight(src)
+		new /obj/item/clothing/accessory/badge/sec/constable(src)
+		new /obj/item/weapon/melee/telebaton(src)
+		new /obj/item/weapon/melee/baton/shocker/loaded(src)
 		return
 
 
@@ -275,7 +285,7 @@
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/badge/holo/detective(src)
+		new /obj/item/clothing/accessory/badge/sec/detective(src)
 		new /obj/item/clothing/gloves/black(src)
 		new /obj/item/weapon/storage/belt/detective(src)
 		new /obj/item/weapon/storage/box/evidence(src)

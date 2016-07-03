@@ -82,6 +82,11 @@
 	desc = "A warning sign which reads 'BIOHAZARD'."
 	icon_state = "bio"
 
+/obj/structure/sign/security
+	name = "\improper Themis Security"
+	desc = "That's an insignia of the Themis Security, corporation which provides security services to the Nanotrasen."
+	icon_state = "themissecurity"
+
 /obj/structure/sign/electricshock
 	name = "\improper HIGH VOLTAGE"
 	desc = "A warning sign which reads 'HIGH VOLTAGE'."

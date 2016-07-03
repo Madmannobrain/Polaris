@@ -207,3 +207,31 @@
 	icon_state = "s-casing-spent"
 	BB = null
 	projectile_type = null
+
+/obj/item/ammo_casing/caseless
+	caseless = 1
+	name = "caseless bullet"
+	icon_state = "cless-casing"
+
+/obj/item/ammo_casing/caseless/wardenrevolver
+	caliber = "32"
+	icon_state = "cless-casing"
+	desc = "A .32 caseless bullet."
+	projectile_type = /obj/item/projectile/bullet/impulse/revolver
+
+/obj/item/ammo_casing/caseless/wardenrevolver/ap
+	desc = "An AP .32 caseless bullet."
+	caliber = "32"
+	projectile_type = /obj/item/projectile/bullet/impulse/revolver/ap
+
+/obj/item/ammo_casing/caseless/traumatic
+	caliber = "10x45"
+	desc = "A traumatic 10x45mm caseless bullet."
+	projectile_type = /obj/item/projectile/bullet/impulse/traumatic
+
+/obj/item/ammo_casing/caseless/traumatic/hp
+	caliber = "10x45"
+	desc = "An HP 10x45mm caseless bullet."
+	projectile_type = /obj/item/projectile/bullet/impulse/traumatichp
+
+

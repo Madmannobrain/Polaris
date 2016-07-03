@@ -309,3 +309,21 @@
 
 /obj/item/weapon/gun/projectile/luger/brown
 	icon_state = "p08b"
+
+/obj/item/weapon/gun/projectile/impulsetrauma
+	name = "\improper 10mm impulse pistol"
+	desc = "That's a Diemaco Guardian, an impulse traumatic pistol popular among the Themis Security employees. Uses 10x45mm rounds."
+	icon_state = "traumaticpistol"
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2)
+	caliber = "10x45"
+	load_method = MAGAZINE
+	fire_sound = 'sound/weapons/traumaticpistol.wav'
+	magazine_type = /obj/item/ammo_magazine/a10x45/
+	allowed_magazines = list(/obj/item/ammo_magazine/a10x45/hp, /obj/item/ammo_magazine/a10x45/)
+
+/obj/item/weapon/gun/projectile/impulsetrauma/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "[initial(icon_state)]"
+	else
+		icon_state = "[initial(icon_state)]-empty"
