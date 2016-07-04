@@ -234,4 +234,23 @@
 	desc = "An HP 10x45mm caseless bullet."
 	projectile_type = /obj/item/projectile/bullet/impulse/traumatichp
 
+/obj/item/ammo_casing/caseless/secpistol
+	desc = "A 5.7x28mm caseless bullet."
+	caliber = "5.7x28"
+	projectile_type = /obj/item/projectile/bullet/impulse
+
+/obj/item/ammo_casing/caseless/secpistol/ap
+	desc = "An AP 5.7x28mm caseless bullet."
+	caliber = "5.7x28"
+	projectile_type = /obj/item/projectile/bullet/impulse/ap
+
+/obj/item/ammo_casing/caseless/impulsecarbine
+	desc = "A 7.5x54mm caseless bullet."
+	caliber = "7.5x54"
+	projectile_type = /obj/item/projectile/bullet/impulse/rifle
+
+/obj/item/ammo_casing/caseless/impulsecarbine/ap
+	desc = "An AP 7.5x54mm caseless bullet."
+	caliber = "7.5x54"
+	projectile_type = /obj/item/projectile/bullet/impulse/rifle/ap
 

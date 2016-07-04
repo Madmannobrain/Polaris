@@ -38,6 +38,61 @@
 	caliber = "10x45"
 	ammo_type = /obj/item/ammo_casing/caseless/traumatic/hp
 
+
+///////5.7x28 caseless///////
+
+/obj/item/ammo_magazine/a57x28
+	name = "ammo magazine (5.7x28mm caseless)"
+	desc = "A magazine for 5.7x28 impulse guns."
+	icon_state = "5.7x28pistol"
+	caliber = "5.7x28"
+	ammo_type = /obj/item/ammo_casing/caseless/secpistol
+	matter = list(DEFAULT_WALL_MATERIAL = 1260)
+	max_ammo = 12
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a57x28/ap
+	name = "ammo magazine (5.7x28mm caseless AP)"
+	desc = "An AP magazine for 5.7x28 impulse guns."
+	icon_state = "5.7x28pistol"
+	caliber = "5.7x28"
+	ammo_type = /obj/item/ammo_casing/caseless/secpistol/ap
+
+/obj/item/ammo_magazine/a57x28pdw
+	name = "PDW ammo magazine (5.7x28mm caseless)"
+	desc = "A magazine for 5.7x28 impulse guns."
+	icon_state = "5.7x28pdw"
+	caliber = "5.7x28"
+	ammo_type = /obj/item/ammo_casing/caseless/secpistol
+	matter = list(DEFAULT_WALL_MATERIAL = 3260)
+	max_ammo = 28
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a57x28pdw/ap
+	name = "PDW ammo magazine (5.7x28mm caseless AP)"
+	desc = "An AP magazine for 5.7x28 impulse guns."
+	icon_state = "5.7x28pdw"
+	ammo_type = /obj/item/ammo_casing/caseless/secpistol/ap
+	matter = list(DEFAULT_WALL_MATERIAL = 5260)
+
+///////7.5x54 caseless///////
+
+/obj/item/ammo_magazine/a75x54
+	name = "ammo magazine (7.5x54mm caseless)"
+	desc = "A magazine for 7.5x54 impulse guns."
+	icon_state = "7.5x54carbine"
+	caliber = "7.5x54"
+	ammo_type = /obj/item/ammo_casing/caseless/impulsecarbine
+	matter = list(DEFAULT_WALL_MATERIAL = 3260)
+	max_ammo = 15
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a75x54/ap
+	name = "ammo magazine (7.5x54mm caseless AP)"
+	desc = "An AP magazine for 7.5x54 impulse guns."
+	ammo_type = /obj/item/ammo_casing/caseless/impulsecarbine/ap
+	matter = list(DEFAULT_WALL_MATERIAL = 5260)
+
 ///////// .357 /////////
 
 /obj/item/ammo_magazine/a357
