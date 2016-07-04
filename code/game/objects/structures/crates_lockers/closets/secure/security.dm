@@ -160,6 +160,7 @@
 		new /obj/item/ammo_magazine/a32(src)
 		new /obj/item/ammo_magazine/a32(src)
 		new /obj/item/ammo_magazine/a32/ap(src)
+		new /obj/item/weapon/storage/firstaid/sec(src)
 		return
 
 
@@ -199,6 +200,7 @@
 		new /obj/item/clothing/accessory/badge/sec/seniorconstable(src)
 		new /obj/item/weapon/melee/telebaton(src)
 		new /obj/item/weapon/melee/baton/shocker/loaded(src)
+		new /obj/item/weapon/storage/firstaid/sec(src)
 		return
 
 
@@ -237,6 +239,7 @@
 		new /obj/item/clothing/accessory/badge/sec/constable(src)
 		new /obj/item/weapon/melee/telebaton(src)
 		new /obj/item/weapon/melee/baton/shocker/loaded(src)
+		new /obj/item/weapon/storage/firstaid/sec(src)
 		return
 
 
